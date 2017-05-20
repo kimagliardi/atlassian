@@ -13,8 +13,8 @@ vim  /etc/profile.d/maven.sh
 MAVEN_HOME=/var/maven
 PATH=$MAVEN_HOME/bin:$PATH
 export PATH MAVEN_HOME
-export CLASSPATH=.chmod +x /etc/profile.d/maven.sh
+export CLASSPATH=.
+chmod +x /etc/profile.d/maven.sh
 source /etc/profile.d/maven.sh
 ########
-chmod +x /etc/profile.d/maven.shmvn -version
 source /etc/profile.d/maven.s
